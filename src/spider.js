@@ -7,7 +7,7 @@ const { urls, recursive, maxRecursiveDepth, output, bySiteStructure } = config;
 var options = {
   urls: [...urls],
   //   urlFilter: url =>
-  //     url.indexOf("https://www.google.com/") !== 0, // Filter links to other websites
+  //     url.indexOf("https://www.yourwebsite.com/") !== 0, // Filter links to other websites
   directory: `./${output}`,
   recursive,
   maxRecursiveDepth,
