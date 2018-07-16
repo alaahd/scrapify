@@ -1,5 +1,5 @@
 module.exports = {
-  urls: ["https://www.google.com"],
+  urls: ["https://www.yourwebsite.com"],
   recursive: false,
   maxRecursiveDepth: 1,
   output: "html",
