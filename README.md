@@ -15,7 +15,7 @@ vi src/config.js
 After opening the file, add the target websites into the urls list, for multiple websites you can provide multiple entries "comma seperated"
 ```
 module.exports = {
-  urls: ["https://www.google.com"],
+  urls: ["https://www.yourwebsite.com"],
   output: "html",
   recursive: false,
   maxRecursiveDepth: 1,
