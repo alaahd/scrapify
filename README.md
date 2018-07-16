@@ -41,3 +41,6 @@ To run the spider in a **debug** verbos mode:
 ```
 npm run start:debug
 ```
+
+## Credits
+[node-website-scraper](https://github.com/website-scraper/node-website-scraper)
