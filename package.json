@@ -17,6 +17,7 @@
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "minimist": "^1.2.0",
+    "morgan": "^1.9.0",
     "rimraf": "^2.6.2",
     "website-scraper": "^3.3.3"
   }
