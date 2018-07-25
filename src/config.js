@@ -1,7 +1,7 @@
 module.exports = {
-  urls: ["https://www.yourwebsite.com"],
-  recursive: false,
-  maxRecursiveDepth: 1,
-  output: "html",
+  urls: ['http://agilemanifesto.org'],
+  recursive: true,
+  maxRecursiveDepth: 3,
+  output: 'html',
   bySiteStructure: false
 };
