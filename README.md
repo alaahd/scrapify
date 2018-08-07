@@ -7,7 +7,7 @@ After cloning the repository, download and install npm modules using the command
 npm install
 ```
 
-## Configure the spider 
+## Configure the spider (optional)
 Before running the spider, you need to edit the config file using your favorite editor.
 ```
 vi src/config.js
