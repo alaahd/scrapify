@@ -34,12 +34,19 @@ module.exports = {
 ## Run the spider 
 To run the spider in **normal** mode:
 ```
-npm run build <website_url>
+npm run build <website_url> [output_folder_name]
 ```
 
 To run the spider in **debug** mode:
 ```
-npm run build:debug <website_url>
+npm run build:debug <website_url> [output_folder_name]
+```
+By default, the scraped website will be available in {PROJECT_ROOT}/www/html
+You can override folder name by providing [output_folder_name] in the command 
+
+Example: 
+```
+npm run build:debug http://www.github.com github.com
 ```
 
 ## Run the website 
