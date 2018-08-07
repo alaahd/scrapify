@@ -34,12 +34,18 @@ module.exports = {
 ## Run the spider 
 To run the spider in **normal** mode:
 ```
-npm start
+npm run build <website_url>
 ```
 
-To run the spider in a **debug** verbos mode:
+To run the spider in **debug** mode:
 ```
-npm run start:debug
+npm run build:debug <website_url>
+```
+
+## Run the website 
+This command will spin an express server to run the website
+```
+npm start
 ```
 
 ## Credits
