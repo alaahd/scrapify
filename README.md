@@ -44,7 +44,7 @@ npm run build:debug <website_url>
 
 To run the spider and specify a **folder** name as the output directory for the scraped website:
 ```
-npm run build:debug <website_url> [folder_name]
+npm run build <website_url> [folder_name]
 ```
 
 Scrapify will create an empty directory as per the provided argument [folder_name] to host the downloaded files, if the folder is already exists, scrapify will remove it and create it again.
@@ -53,7 +53,7 @@ By default, all folders will be created under {PROJECT_ROOT}/www/
 
 Example: 
 ```
-npm run build:debug http://www.github.com github.com
+npm run build http://www.github.com github.com
 ```
 
 ## Run the website 
